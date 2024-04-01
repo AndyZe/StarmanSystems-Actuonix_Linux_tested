@@ -55,6 +55,3 @@ lac write=0x20,800    # to move to position 800
 lac write=0x10        # to read current position 
 ```
 See `Lac_Advanced_Configuration.pdf`  for `0x##` register descriptions.
-
-## LIMITATIONS
-	Multiple lacs (using the rank option above) is untested.
